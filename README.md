@@ -24,4 +24,25 @@ The [scripts/](scripts/) directory has some helper scripts to aid with dataset m
 
 ## Limitations
 
+## Privacy Concerns
+
+All identifiers in the dataset that could potentially reveal a customer's identity have been replaced by pseudo-random numbers to preserve anonymity. Public access to the information in this dataset does not lead to any privacy or other ethical concerns.
+
+## Contact
+
+Midhul Vuppalapati ([midhul@cs.cornell.edu](mailto:midhul@cs.cornell.edu))
+
 ## Usage
+
+Information in this dataset is open to the public for use in research and education purposes. Kindly cite the following publication if you are using our dataset:
+
+```@inproceedings {246356,
+title = {Building An Elastic Warehouse on Disaggregated Persistent Storage},
+booktitle = {17th {USENIX} Symposium on Networked Systems Design and Implementation ({NSDI} 20)},
+year = {2020},
+address = {Santa Clara, CA},
+url = {https://www.usenix.org/conference/nsdi20/presentation/vuppalapati},
+publisher = {{USENIX} Association},
+month = feb,
+}
+
