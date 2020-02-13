@@ -12,8 +12,14 @@ Each row corresponds to one unique query with the columns representing various c
 
 ## Auxiliary Time-series Explosion
 
+We also provide some auxiliary data to make it easier to perform time-series analysis (e.g. things like how do resource utilizations vary over time). This data is also available in both CSV and Parquet formats and can be obtained from the [Downloads](download.md) page. Note that this data can be computed from the main dataset, we are just providing a pre-computed version for convenience. 
+
 ### Schema
 
+Each row consists of a **timestamp**, **queryId** pair indicating that query with identifier **queryId** was running/active at timestamp **timestamp**. For every query that is running/active at **timestamp** there will be one such row. So to compute a time-series of how many queries were active at given timestamp, one could simply do the equivalent of `SELECT COUNT(*) AS queryCount GROUP BY timestamp`. To bring in other query statistics one can join this data with the main dataset on the **queryId** column.  For more details, please refer to the [Schema](schema.md) page. 
+
 ## Scripts
+
+## Limitations
 
 ## Usage
