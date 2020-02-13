@@ -20,6 +20,8 @@ Each row consists of a **timestamp**, **queryId** pair indicating that query wit
 
 ## Scripts
 
+The [scripts/](scripts/) directory has some helper scripts to aid with dataset manipulation. This includes AWK headers and some sample pandas scripts. In addition the [paper-results/](paper-results/) directory contains a set of IPython notebooks (written mostly using pandas) that can re-produce all of the results in our NSDI 2020 paper.
+
 ## Limitations
 
 ## Usage
