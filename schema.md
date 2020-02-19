@@ -1,6 +1,6 @@
 ## Main dataset
 
-_Note: Some of the columns in the dataset have missing values which are denoted by "\N" in the CSV version of the dataset_
+_Note: Some of the columns in the dataset have missing values which are denoted by "\N" in the CSV version_
 
 Each row corresponds to one unique query with the columns representing various characteristics pertaining to that query. The queryId column contains a unique 64-bit identifier for each query. For descriptions of the various columns along with details like units and datatypes, please refer to the following table:
 
