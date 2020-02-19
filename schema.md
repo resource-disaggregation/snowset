@@ -60,10 +60,7 @@ Column | Description | Units | Datatype
 **scanOriginalFiles**|Total number of files in the table before pruning||int64
 **userCpuTime**|User CPU time summed across all worker processes|Microseconds|int64
 **systemCpuTime**|Kernel CPU time summed across all worker processes|Microseconds|int64
-**serverMemoryUsed**|Memory used (?)|Bytes|int64
-**totalMemory**|Memory used (?)|Bytes|int64
-**totalMemoryMax**|Memory used (?)|Bytes|int64
-**workerProcessMemory**|Memory used (?)|Bytes|int64
+**memoryUsed**|Memory used across all worker processes|Bytes|int64
 **profIdle**|CPU Idle time|Milliseconds|int64
 **profCpu**|CPU busy time|Milliseconds|int64
 **profPersistentReadCache**|Time blocked on persistent data read from cache|Milliseconds|int64
