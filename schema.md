@@ -8,14 +8,13 @@ Column | Description | Units | Datatype
 :------:|:-----:|:-----:|:-----:
 **queryId**|Query identifier (anonymized). Uniquely identifies a given query. ||int64
 **warehouseId**|Identifier of warehouse (anonymized) in which the query ran. Queries that ran in the same warehouse will have the same warehouseId||int64
-**databaseId**|"Unique identifier of database that this query is associated with. (Note: missing values ""\N"" possible )"||string
+**databaseId**|Unique identifier of database that this query is associated with. (Note: missing values "\N" possible )||string
 **createdTime**|Timestamp at which query is created / enters the system||UTC Timestamp
 **endTime**|Timestamp at which query is fully complete||UTC Timestamp
 **durationTotal**|Total end-to-end duration of query|Milliseconds|int64
 **durationExec**|Time spent for actual query execution (worker processes running)|Milliseconds|int64
 **durationControlPlane**|Time spent in control plane operations|Milliseconds|int64
 **durationCompiling**|Time spent for query compilation|Milliseconds|int64
-**compilationTime**|""""||int64
 **execTime**|Query compute execution duration.||int64
 **scheduleTime**|Time spent for query to start executing after it entered the system||int64
 **serverCount**|Number of servers used for query execution.||int32
